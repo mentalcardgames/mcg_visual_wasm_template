@@ -1,5 +1,5 @@
 [package]
-name = "mcg_vtemplate"
+name = "mcg-visual-wasm-template"
 version = "0.1.0"
 authors = ["Jan Cichosz <jan.cichosz@web.de>"]
 edition = "2018"
@@ -23,10 +23,7 @@ web-sys = { version = "0.3.77", features = ["HtmlCanvasElement"] }
 eframe = "0.31.1"
 egui_extras = { version = "0.31.1", features = ["all_loaders", "image", "svg", "file"] }
 
-# This is the dependancy while developing the actual crate
-mcg_visual   = { path = "../../mcg_visual" }
-# TODO: Change to this dependancy for the final template
-# mcg_visual = { git = "https://github.com/gSys1337/mcg_visual.git", branch = "stable" }
+mcg_visual = { git = "https://github.com/gSys1337/mcg_visual.git", branch = "stable" }
 
 [dev-dependencies]
 

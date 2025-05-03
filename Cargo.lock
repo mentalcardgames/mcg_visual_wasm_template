@@ -1796,20 +1796,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "mcg_visual"
-version = "0.1.0"
-dependencies = [
- "eframe",
- "egui",
- "getrandom 0.2.16",
- "rand",
- "wasm-bindgen",
- "wasm-bindgen-futures",
- "web-sys",
-]
-
-[[package]]
-name = "mcg_vtemplate"
+name = "mcg-visual-wasm-template"
 version = "0.1.0"
 dependencies = [
  "console_error_panic_hook",
@@ -1817,6 +1804,20 @@ dependencies = [
  "egui_extras",
  "mcg_visual",
  "wasm-bindgen",
+ "web-sys",
+]
+
+[[package]]
+name = "mcg_visual"
+version = "0.1.0"
+source = "git+https://github.com/gSys1337/mcg_visual.git?branch=stable#d802dccbd87b9a7de7f46b3d53244317fe1efc5a"
+dependencies = [
+ "eframe",
+ "egui",
+ "getrandom 0.2.16",
+ "rand",
+ "wasm-bindgen",
+ "wasm-bindgen-futures",
  "web-sys",
 ]
 

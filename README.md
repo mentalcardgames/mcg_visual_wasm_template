@@ -15,10 +15,8 @@ templates and usages of `wasm-pack`.
 
 [Learn more about `cargo generate` here.](https://github.com/ashleygwilliams/cargo-generate)
 
-TODO: Replace with proper/final git address
-
 ```shell
-cargo generate --git https://github.com/gSys1337/wasm-mcg-visual-template.git --name my-project
+cargo generate --git https://github.com/gSys1337/mcg_visual_wasm_template.git --name my-project
 cd my-project
 ```
 
@@ -42,8 +40,6 @@ include them in the final binary.
 ```shell
 python -m http.server 8080
 ```
-
-
 
 ### 🔬 Test in Headless Browsers with `wasm-pack test`
 
