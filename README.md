@@ -15,6 +15,8 @@ templates and usages of `wasm-pack`.
 
 [Learn more about `cargo generate` here.](https://github.com/ashleygwilliams/cargo-generate)
 
+*Important: ``cargo generate`` does currently not work!*
+
 ```shell
 cargo generate --git https://github.com/gSys1337/mcg_visual_wasm_template.git --name my-project
 cd my-project
