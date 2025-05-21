@@ -23,9 +23,9 @@ web-sys = { version = "0.3.77", features = ["HtmlCanvasElement"] }
 eframe = "0.31.1"
 egui_extras = { version = "0.31.1", features = ["all_loaders", "image", "svg", "file"] }
 
-mcg_visual = { git = "https://github.com/gSys1337/mcg_visual.git", branch = "stable" }
+mcg_visual = { git = "https://github.com/mentalcardgames/mcg_visual.git", branch = "stable" }
 
-[patch."https://github.com/gSys1337/mcg_visual"]
+[patch."https://github.com/mentalcardgames/mcg_visual"]
 #mcg_visual = { path = "path/to/local/mcg_visual" }
 
 [dev-dependencies]
