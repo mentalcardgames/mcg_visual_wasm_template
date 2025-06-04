@@ -1810,7 +1810,7 @@ dependencies = [
 [[package]]
 name = "mcg_visual"
 version = "0.1.0"
-source = "git+https://github.com/mentalcardgames/mcg_visual.git?branch=stable#895b7418774370ab2863bf2ca8040ee016bfb41e"
+source = "git+https://github.com/mentalcardgames/mcg_visual.git?branch=stable#9adf9fe8919fe3245bfef947a41b0284ae400fef"
 dependencies = [
  "eframe",
  "egui",
